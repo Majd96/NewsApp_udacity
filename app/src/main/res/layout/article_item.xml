@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="@dimen/article_margin"
+    android:id="@+id/article_item"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/title"
+        tools:text="Article Title"
+        android:textSize="@dimen/title_size"
+        android:textStyle="bold"
+        android:padding="@dimen/article_margin" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/author"
+        tools:text="Author Name"
+        android:padding="@dimen/article_margin" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="@dimen/article_margin">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/date"
+            tools:text="1-11-2018"
+            android:layout_weight="3"
+            android:layout_marginLeft="@dimen/article_margin"
+            android:layout_marginStart="@dimen/article_margin" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/section_name"
+            tools:text="Section Name"
+            android:layout_weight="1"
+
+
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">NewsApp</string>
+    <string name="internet_message">No internet connection</string>
+    <string name="no_result_massesge">NO Results Available</string>
+    <string name="settings">Settings</string>
+    <string name="pref1_key">pref1_key</string>
+    <string name="pref1_title">Search For</string>
+    <string name="pref1_default_value">debate</string>
+    <string name="pref2_key">pref2_key</string>
+    <string name="pref2_title">Order By</string>
+    <string name="pref2_default_value">newest</string>
+</resources>
